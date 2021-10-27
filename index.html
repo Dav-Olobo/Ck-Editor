@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Testing CKEditor</title>
+</head>
+<script src="ckeditor.js" type="text/javascript"></script>
+<body>
+      <form name="ckeditor">
+         <textarea name="editor1" id="editor1" rows="10" cols="80">
+            Enter Content...
+        </textarea>
+        <input type="submit" value="Post">
+        <script>
+            // Replace the <textarea id="editor1"> with a CKEditor
+            // instance, using default configuration.
+            CKEDITOR.replace( 'editor1' );
+        </script>
+</form>
+</body> 
+</html>
